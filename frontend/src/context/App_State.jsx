@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AppContext } from "./App_Context";
 import axios from "axios";
 const App_State = (props) => {
-  const url = "https://food-delta-one.vercel.app/api";
+  const url = "https://food-hajf.vercel.app/api";
   const [token, setToken] = useState("");
   const [recipe, setrecipe] = useState([]);
   const [savedRecipe, setsavedRecipe] = useState([]);
